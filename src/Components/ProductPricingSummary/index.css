@@ -1,0 +1,18 @@
+.pricingSummary {
+    margin-top: 10px;
+}
+.finalPriceLabel {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.priceLabel {
+    text-decoration: line-through;
+    color: #827f7f;
+    margin-right: 10px;
+}
+
+.discountLabel {
+    color: #388E3B;
+    font-weight: bold;
+}
