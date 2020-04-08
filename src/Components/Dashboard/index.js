@@ -1,21 +1,18 @@
 import React, { Component } from "react";
 
 import AddProduct from "../AddProduct";
-import "./index.css";
+import MockResponse from '../../MockResponse/index.json';
 import ProductComparisionTable from "../ProductComparisionTable";
+import "./index.css";
 
 class DashboardRaw extends Component {
   state = {
     productList: {},
     selectedProducts: {},
   };
-  
+
   componentDidMount() {
-    fetch("http://www.mocky.io/v2/5e86ec5531000011d8814754")
-      .then((resp) => resp.json())
-      .then((data) => {
-        this.setState({ productList: data });
-      });
+    this.setState({ productList: MockResponse });
   }
 
   changeSelectedProduct = (selectedProducts) => {
