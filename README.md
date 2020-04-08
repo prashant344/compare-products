@@ -1,5 +1,7 @@
 This project is created to dispaly product comparision page where we can select and compare different types of products. The proucts comparision will be listed in a tabular form.
 
+The website is hosted at https://prashant344.github.io/compare-products/
+
 ## Available Scripts
 
 In the project directory, you can run:
